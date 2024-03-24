@@ -39,7 +39,6 @@ contactForm.addEventListener('submit', (e) => {
     email: email,
     message: message,
     };
-    console.log(postData);
     fetch('https://api-server-c4rg.onrender.com/api/users/help', {
   method: 'POST',
   body: postData
