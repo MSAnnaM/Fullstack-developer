@@ -98,15 +98,22 @@ button {
 }
 
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  background-color: rgba(51, 51, 51, 0.8);
+  margin: 0 auto;
 }
 .navigation {
   display: none;
