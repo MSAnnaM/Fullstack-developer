@@ -326,11 +326,11 @@ a:hover {
 .contact-info-list {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 .contacts-link {
   color: #fff;
+  margin-top: 15px;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -360,7 +360,7 @@ a:hover {
   stroke: #333;
 }
 
-.contact-btn {
+/* .contact-btn {
   padding: 10px 20px;
   background-color: transparent;
   border: 1px solid #fff;
@@ -372,7 +372,7 @@ a:hover {
 .contact-btn:hover {
   background-color: #fff;
   color: #333;
-}
+} */
 
 .backdrop {
   overflow-y: scroll;
@@ -552,9 +552,13 @@ a:hover {
     font-size: 18px;
   }
   .footer {
-    justify-content: space-between;
-    flex-direction: row;
     padding: 30px;
+  }
+  .contact-info {
+    flex-direction: row;
+  }
+  .contact-info-list {
+    padding-right: 100px;
   }
   .modal-content {
     width: 408px;
@@ -575,5 +579,8 @@ a:hover {
   }
   .summary-text {
     font-size: 22px;
+  }
+  .contact-info-list {
+    padding-right: 200px;
   }
 }
